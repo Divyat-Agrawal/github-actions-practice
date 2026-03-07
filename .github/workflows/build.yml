@@ -29,7 +29,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Deploying app
-        run: echo"container is deploy"
+        run: echo " container is deploy "
 
 
 
