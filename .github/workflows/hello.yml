@@ -14,9 +14,3 @@ jobs:
     
       - name: print message
         run: echo " Hello from github actions "
-  
-  details:
-    runs-on: ubuntu-latest
-
-    steps:
-      -name: hello
