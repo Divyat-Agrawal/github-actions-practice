@@ -23,7 +23,3 @@ jobs:
 
             - name: Run litter
               uses: flake8 app.py
-
-              
-
-
