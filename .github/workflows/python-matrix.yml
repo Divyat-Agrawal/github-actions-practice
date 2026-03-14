@@ -19,7 +19,7 @@ jobs:
                 python-version: "3.13"
 
             - name: install libraries and dependencies
-              run: pipinstall -r requirements.txt
+              run: pip install -r requirements.txt
 
             - name: Run litter
               run: flake8 app.py
