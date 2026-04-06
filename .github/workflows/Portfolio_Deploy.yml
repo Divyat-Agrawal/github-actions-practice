@@ -15,13 +15,14 @@ jobs:
         environment:
             name: github-pages
             url: ${{ steps.deployment.outputs.page_url }} 
+            FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
         steps:
             # get access to your Portfolio code via pre-built actions
             # clones or checks out the code where this workflow is written
             # STEP 1
             - name: Checkout Code 
-              uses: actions/checkout@v4 
+              uses: actions/checkout@v4.2.0
 
             # setup GitHub Pages
             # STEP 2
